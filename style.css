@@ -1,0 +1,17 @@
+.row {
+    margin: 0 0 20px;
+}
+
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.column {
+    background-color: rgb(98,125,77);
+    height: 200px;
+    width: 23%;
+    float: left;
+    margin: 0 1%;
+}
